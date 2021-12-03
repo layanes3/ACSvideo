@@ -1,0 +1,101 @@
+/*feuille des variables */
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: 'designer';
+  src: url("../fonts/designer.otf") format("truetype");
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    overflow-y: hidden;
+  }
+  body .lecteur-menu-search-outside, body .btn-genre {
+    display: none;
+  }
+  body .btn_burger {
+    display: none;
+  }
+  body .search-input2 {
+    right: 23%;
+  }
+  body .geo-background {
+    display: none;
+  }
+  body .geo-background-web {
+    width: 60%;
+    display: -ms-grid;
+    display: grid;
+    position: absolute;
+    top: -70px;
+    left: 600px;
+    z-index: -1 !important;
+  }
+  body .contenu {
+    width: 90%;
+    margin: auto;
+  }
+  body .accueil-main-div-connect {
+    padding: 12px 12px;
+    margin-top: 160px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 30px;
+    float: right;
+    text-decoration: none;
+    color: #cccbcb;
+  }
+  body .compte-main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  body .compte-main .compte-div-parametres {
+    margin: auto;
+  }
+  body .compte-main .compte-div-parametres h3 {
+    font-size: 3em;
+    font-family: 'designer';
+  }
+  body .compte-main .compte-div-parametres p {
+    font-size: 1.7em;
+  }
+  body .compte-img-avatar {
+    display: none;
+  }
+  body .compte-img-avatar-web {
+    display: -ms-grid !important;
+    display: grid !important;
+    width: 500px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 30px 0px;
+  }
+  .compte-button-deconnecter {
+    padding: 12px;
+    margin-top: 160px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    display: block;
+    text-decoration: none;
+    color: #222221;
+    font-weight: 700;
+  }
+  footer {
+    margin-left: 7%;
+    margin-right: 7%;
+    display: inline;
+    padding-left: 60%;
+  }
+  footer a {
+    text-decoration: none;
+    color: #969494;
+  }
+}
+/*# sourceMappingURL=desktop-compte-style.css.map */

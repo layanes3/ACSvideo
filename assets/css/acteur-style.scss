@@ -1,0 +1,95 @@
+@import '_variables';
+@import '_menuBurger'; 
+
+
+
+body{
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    background: $background;
+
+    
+    // header info & description//
+    .acteur-header{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        width: 100%;
+        background: $background-acteur;
+
+        .acteur-header-img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            object-fit: cover;
+            border-radius: 7px;
+            padding: 3px;
+            box-shadow: inset 0px -5px 10px 0px rgba(124, 97, 9, 0.466), inset 8px 6px 8px -3px rgba(105, 102, 102, 0.1)
+        }
+
+        .acteur-header-info{
+            width: 90%;
+            margin: auto;
+            font-size: em;
+            color: #202020;
+            text-align: center;
+        }
+    }
+
+    // cards//
+    .acteur-filmo{
+        margin-top: 50px;
+        margin-left: 3px;
+        color: white;
+
+        h3{
+            font-family: 'designer';
+            letter-spacing: 0.1em;
+        }
+
+    .acteur-filmo-scroll{
+        overflow-x: scroll;
+        scrollbar-width: none;
+
+        // container des cards//
+        .acteur-filmo-card{
+            width: 1000px;
+            display: flex;
+            gap: 30px;
+            
+            
+            // chaque card//
+            .acteur-filmo-card-row{
+               width: 170px;
+               height: 250px;
+               margin-left: 6px;
+               padding: 30px; 
+               background: url("../images/cadre.svg") center no-repeat;
+               background-size: contain;
+               object-fit: cover;
+            }
+        }
+    }
+      
+}
+
+    footer{
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a{ 
+            text-decoration: none;
+            color: rgb(112, 112, 112);
+        }
+    } 
+}
+
+
+

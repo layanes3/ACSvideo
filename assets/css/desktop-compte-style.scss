@@ -1,0 +1,115 @@
+@import '_variables.scss';
+
+
+@media screen and (min-width: 768px){
+
+    body{
+       overflow-y: hidden;
+
+       .lecteur-menu-search-outside, .btn-genre{
+           display: none;
+       }
+
+        .btn_burger{
+            display: none;
+
+        }
+
+        .search-input2{
+            right: 23%;
+        } 
+
+        .geo-background{
+            display: none;
+        }
+        
+        .geo-background-web{
+            width: 60%;
+            display: grid;
+            position: absolute;
+            top: -70px;
+            left: 600px;
+            z-index: -1 !important;
+        }
+
+        .contenu{
+            width: 90%;
+            margin: auto;
+        }
+
+        .accueil-main-div-connect{
+            padding: 12px 12px;
+            margin-top: 160px;
+            margin-bottom: 30px;
+            background-color: transparent;
+            border: solid 1px;
+            border-radius: 30px;
+            float: right;
+            text-decoration: none;
+            color: rgb(204, 203, 203);
+        }
+
+        
+
+        .compte-main{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        
+            .compte-div-parametres{
+                margin: auto;
+
+                h3{
+                    font-size: 3em;
+                    font-family: 'designer';
+                }
+
+                p{
+                    font-size: 1.7em;
+                        
+                    }
+                }
+            }
+
+            .compte-img-avatar{
+                display: none ;
+            }
+
+            .compte-img-avatar-web{
+                display: grid !important;
+                width: 500px;
+                height: 500px ;
+                object-fit: cover;
+                border-radius: 30px 0px ; 
+            }
+
+            
+
+        }
+
+        .compte-button-deconnecter{
+                padding: 12px;
+                margin-top: 160px;
+                margin-bottom: 30px;
+                border-radius: 30px;
+                display: block;
+                text-decoration: none;
+                color: rgb(34, 34, 33);
+                font-weight: 700;
+        }
+
+    
+        footer{
+            margin-left: 7%;
+            margin-right: 7%;
+            display: inline;
+            padding-left: 60%;
+
+            a{ 
+                text-decoration: none;
+                color: rgb(150, 148, 148);
+              
+        }
+    }
+
+}
+    

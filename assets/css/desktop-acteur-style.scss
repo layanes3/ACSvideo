@@ -1,0 +1,104 @@
+@import '_variables.scss';
+@import "_menuBurger"; 
+
+@media screen and (min-width: 768px){
+
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+
+        .btn_burger{
+            display: none;
+        }
+        .search-input2{
+            right: 23%;
+        } 
+
+        .icon-bars{
+            display: none;
+        }
+        
+        // header info & description//
+        .acteur-header{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding-top: 60px;
+            padding-bottom: 60px;
+            width: 100%;
+    
+            .acteur-header-img{
+                width: 250px;
+                height: auto;
+                text-align: left;
+                padding: 3px;
+                box-shadow: inset 0px -5px 10px 0px rgba(124, 97, 9, 0.466), inset 8px 6px 8px -3px rgba(105, 102, 102, 0.1)
+            }
+    
+            .acteur-header-info{
+                font-size: 1.3em;
+                color: #202020;
+                width: 60%;
+                margin-left: 30px;
+                text-align: left;
+            }
+        }
+    
+        // cards- desktop//
+        .acteur-filmo{
+            margin-left: 12px;
+            color: white;
+            font-family: $designer;
+            font-size: 2em;
+
+
+            .acteur-filmo-card{
+               
+                width: 60% !important;
+                margin: auto;
+                flex-wrap: wrap;
+
+                //OU// display : grid;
+                // grid-template-columns: repeat(3, 1fr);
+                //ou grid-column: 2 / 4;
+                
+                
+                .acteur-filmo-card-row{
+                width: 300px;
+                height: 400px;
+                margin-left: 12px;
+                margin-left: 12px;
+                padding-bottom: 6px; 
+                padding: 30px; 
+                background: url("../images/cadre.svg") center no-repeat;
+                background-size: contain;
+                }
+            }
+        } 
+    }
+
+    footer{
+           
+        padding-top: 12px;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 300px;
+        display: inline;
+        padding-left: 60%;
+
+        a{ 
+            text-decoration: none;
+            color: rgb(150, 148, 148);
+        }
+    }
+}  
+
+
+
+
+
+
+
+
+
+
+
